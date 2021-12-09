@@ -1435,6 +1435,9 @@ form.subscribe .submit {
 .mobile_nav {
     display: none;
 }
+.contact_page {
+    background: transparent url(img/contact_header.jpg) center center no-repeat;
+}
 
 /* Mobile styles */
 @media only screen and (max-width: 1180px) {
