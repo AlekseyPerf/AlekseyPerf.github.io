@@ -516,7 +516,9 @@ header.top_header .wrapper nav .desktop li a:hover {
 }
 
 /*Styles for page heading*/
-
+img {
+    max-width: -webkit-fill-available;
+}
 .svg_style {
     position: relative;
 }
