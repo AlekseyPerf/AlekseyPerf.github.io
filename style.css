@@ -1689,10 +1689,6 @@ form.feedback .submit {
         margin-top: 80px;
         padding-bottom: 90px;
     }
-    .team_list .tem_member .image img {
-        min-width: 240px;
-        max-width: none;
-    }
     .team_list .tem_member {
         width: 100%;
     }
@@ -1759,5 +1755,10 @@ form.feedback .submit {
     }
     .contact_info .wrapper .info h3 {
         text-align: center;
+    }
+}
+@media only screen and (max-width: 380px) {
+    .team_list .tem_member .image img {
+        width: 110px;
     }
 }
