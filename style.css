@@ -1438,7 +1438,111 @@ form.subscribe .submit {
 .contact_page {
     background: transparent url(img/contact_header.jpg) center center no-repeat;
 }
+.contact_info .wrapper {
+    display: flex;
+    align-items: top;
+    justify-content: space-between;
+    margin-top: 95px;
+    margin-bottom: -20px;
+}
+.contact_info .wrapper .info {
+    width: calc(50% - 30px);
+}
+.contact_info .wrapper .info h3 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 25px;
+    color: #433840;
+    margin-bottom: 20px
+}
+.contact_info .wrapper .info p {
+    font-size: 15px;
+    line-height: 25px;
+    color: #9A9A9A;
+}
+.contact_info .wrapper .feedback {
+    width: calc(50% - 30px);
+    display: flex;
+    flex-direction: column;
+    padding-top: 5px;
+}
+form.feedback .name {
+    background: #FFFFFF;
+    border: 3px solid #FEE9EF;
+    border-radius: 5px;
+    width: 540px;
+    height: 60px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 18px;
+    color: #9A9A9A;
+    padding-left: 20px;
+    margin-bottom: 20px;
+} 
+form.feedback .name::placeholder {
+    font-family: Quicksand;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    color: #9A9A9A;
+    padding-top: 18px;
+}
+form.feedback .email {
+    background: #FFFFFF;
+    border: 3px solid #FEE9EF;
+    border-radius: 5px;
+    width: 540px;
+    height: 60px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 18px;
+    color: #9A9A9A;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
 
+form.feedback .email::placeholder {
+    font-family: Quicksand;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    color: #9A9A9A;
+    padding-top: 18px;
+}
+form.feedback .message {
+    background: #FFFFFF;
+    border: 3px solid #FEE9EF;
+    border-radius: 5px;
+    width: 540px;
+    height: 108px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 18px;
+    color: #9A9A9A;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+form.feedback .message::placeholder {
+    font-family: Quicksand;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    color: #9A9A9A;
+    padding-top: 18px;
+}
+form.feedback .submit {
+    width: 188px;
+    height: 60px;
+    background: #FEA3AC;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
 /* Mobile styles */
 @media only screen and (max-width: 1180px) {
     .homeslider .slide .title_one {
