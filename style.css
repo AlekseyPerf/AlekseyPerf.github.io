@@ -1760,5 +1760,17 @@ form.feedback .submit {
 @media only screen and (max-width: 380px) {
     .team_list .tem_member .image img {
         width: 110px;
+        margin-left: 0;
+    }
+    .team_list .tem_member:nth-child(3) .image img,
+    .team_list .tem_member:nth-child(4) .image img {
+        margin-right: 0;
+    }
+    .team_list .tem_member {
+        margin-left: 0;
+    }
+    .team_list .tem_member:nth-child(3),
+    .team_list .tem_member:nth-child(4) {
+        margin-right: 0;
     }
 }
